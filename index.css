@@ -133,3 +133,7 @@ h1 {
 }
 h4 {
 }
+::placeholder {
+  color: var(--textColorSecondary);
+  opacity: 1; /* Firefox */
+}
