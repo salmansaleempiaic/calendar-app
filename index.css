@@ -1,0 +1,122 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("./Assets/fonts/Poppins/Poppins-Black.ttf");
+  /* src: url("./Assets/fonts/Poppins/Poppins-BlackItalic.ttf");
+  src: url("./Assets/fonts/Poppins/Poppins-Bold.ttf");
+  src: url("./Assets/fonts/Poppins/Poppins-BoldItalic.ttf");
+  src: url("./Assets/fonts/Poppins/Poppins-ExtraBold.ttf");
+  src: url("./Assets/fonts/Poppins/Poppins-ExtraBoldItalic.ttf");
+  src: url("./Assets/fonts/Poppins/Poppins-ExtraLight.ttf");
+  src: url("./Assets/fonts/Poppins/Poppins-ExtraLightItalic.ttf");
+  src: url("./Assets/fonts/Poppins/Poppins-Italic.ttf");
+  src: url("./Assets/fonts/Poppins/Poppins-Light.ttf");
+  src: url("./Assets/fonts/Poppins/Poppins-LightItalic.ttf");
+  src: url("./Assets/fonts/Poppins/Poppins-Medium.ttf");
+  src: url("./Assets/fonts/Poppins/Poppins-MediumItalic.ttf");
+  src: url("./Assets/fonts/Poppins/Poppins-Regular.ttf");
+  src: url("./Assets/fonts/Poppins/Poppins-SemiBold.ttf");
+  src: url("./Assets/fonts/Poppins/Poppins-SemiBoldItalic.ttf");
+  src: url("./Assets/fonts/Poppins/Poppins-Thin.ttf");
+  src: url("./Assets/fonts/Poppins/Poppins-ThinItalic.ttf"); */
+}
+:root {
+  --backgroundColor: #e9ecef;
+  --whiteColor: #ffffff;
+  --blueColor: #218ae5;
+  --formBackgoundColor: #f8f9fa;
+  --borderRadius: 5px;
+  --fontFamily: CustomFont;
+  --textColorPrimary: #343a40;
+  --textColorSecondary: #adb5bd;
+  --textColorTertiary: #dee2e6;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins";
+}
+.background {
+  background: var(--backgroundColor);
+  height: 100vh;
+}
+.container {
+  padding: 6rem 5rem;
+  display: grid;
+  grid-template: 1fr/1fr 1fr;
+  height: 100%;
+}
+
+.svg {
+  background: var(--whiteColor);
+  border-top-right-radius: var(--borderRadius);
+  border-bottom-right-radius: var(--borderRadius);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  background: var(--formBackgoundColor);
+  border-top-left-radius: var(--borderRadius);
+  border-bottom-left-radius: var(--borderRadius);
+  padding: 8rem 5rem;
+}
+.text {
+  line-height: 1;
+}
+.in {
+  margin-top: 2rem;
+}
+.email,
+.password {
+  margin-top: 1rem;
+  font-size: 12px;
+}
+.password {
+  margin-bottom: 1rem;
+}
+.labels {
+  color: var(--textColorSecondary);
+  display: block;
+  margin-bottom: 0.1rem;
+}
+#email,
+#password {
+  padding: 7px;
+  width: 100%;
+  font-size: 10px;
+}
+.button {
+  width: 100%;
+  background: var(--blueColor);
+  color: var(--whiteColor);
+  font-size: 12px;
+  text-align: center;
+  padding: 10px;
+  border-radius: var(--borderRadius);
+}
+.up {
+  margin-top: 1rem;
+}
+span {
+  margin-right: 0.5rem;
+  padding-right: 0.5rem;
+  color: var(--textColorPrimary);
+}
+.centering {
+  padding: 4rem;
+}
+p {
+  font-size: 20px;
+  text-align: center;
+}
+.spanBorder {
+  border-right: 2px solid var(--textColorSecondary);
+}
+h1 {
+  color: var(--blueColor);
+}
