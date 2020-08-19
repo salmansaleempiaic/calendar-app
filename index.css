@@ -113,7 +113,7 @@ h1 {
 h4,
 h3,
 span {
-  font-weight: 500;
+  font-weight: normal;
 }
 ::placeholder {
   color: var(--textColorSecondary);
