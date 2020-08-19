@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "Poppins";
+  font-family: "poppins";
   src: url("./Assets/fonts/Poppins/Poppins-Black.ttf");
   /* src: url("./Assets/fonts/Poppins/Poppins-BlackItalic.ttf");
   src: url("./Assets/fonts/Poppins/Poppins-Bold.ttf");
@@ -37,7 +37,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: "Poppins";
+  font-family: "poppins";
 }
 .background {
   background: var(--backgroundColor);
