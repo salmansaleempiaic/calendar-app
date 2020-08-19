@@ -110,7 +110,10 @@ p {
 h1 {
   color: var(--blueColor);
 }
-h4 {
+h4,
+h3,
+span {
+  font-weight: 500;
 }
 ::placeholder {
   color: var(--textColorSecondary);
